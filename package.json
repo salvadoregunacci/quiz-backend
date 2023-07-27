@@ -20,8 +20,7 @@
     "sharp": "^0.32.3"
   },
   "scripts": {
-    "start": "node server.js",
-    "build": "esbuild server.js --bundle --platform=node --target=node18 --outdir=dist"
+    "start": "node server.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
